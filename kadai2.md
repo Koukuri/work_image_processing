@@ -14,7 +14,7 @@ imagesc(ORG); axis image; % 画像の表示
 図１は256諧調なので2諧調にするには半分の128で分ければよい。
 
 % ２階調画像の生成
-IMG = ORG>128;\n
+IMG = ORG>128;
 imagesc(IMG); colormap(gray); colorbar;  axis image;
 
 2諧調画像の生成の結果を図２に示す。
