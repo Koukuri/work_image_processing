@@ -3,6 +3,7 @@
 「flower」を原画像とする。この画像は縦512、横512画素による正方形のディジタルカラーである。
 
 ORG=imread('flower.jpg'); % 原画像の入力
+
 ORG = rgb2gray(ORG); colormap(gray); colorbar;
 imagesc(ORG); axis image; % 画像の表示
 
