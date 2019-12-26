@@ -8,8 +8,7 @@ imagesc(ORG); axis image; % 画像の表示
 
 より、原画像を読み込み、グレーカラーマップとして表示した結果を図１に示す。
 
-![原画像]
-(https://github.com/Koukuri/work_image_processing/blob/master/image/kadai2.1.png)
+![原画像](https://github.com/Koukuri/work_image_processing/blob/master/image/kadai2.1.png)
 図１ 原画像のグレーカラーマップ
 
 図１は256諧調なので2諧調にするには半分の128で分ければよい。
@@ -20,8 +19,7 @@ imagesc(IMG); colormap(gray); colorbar;  axis image;
 
 2諧調画像の生成の結果を図２に示す。
 
-![原画像]
-(https://github.com/Koukuri/work_image_processing/blob/master/image/kadai2.2.png)
+![原画像](https://github.com/Koukuri/work_image_processing/blob/master/image/kadai2.2.png)
 図２ 2諧調画像
 
 同様に4諧調にするには64、128、192で分ける。
@@ -35,8 +33,7 @@ imagesc(IMG); colormap(gray); colorbar;  axis image;
 
 4諧調画像の生成の結果を図３に示す。
 
-![原画像]
-(https://github.com/Koukuri/work_image_processing/blob/master/image/kadai2.3.png)
+![原画像](https://github.com/Koukuri/work_image_processing/blob/master/image/kadai2.3.png)
 図３ 4諧調画像
 
 同様に8諧調にするには32、64、96、128、160、192、224で分ける。
@@ -54,6 +51,5 @@ imagesc(IMG); colormap(gray); colorbar;  axis image;
 
 8諧調画像の生成の結果を図４に示す。
 
-![原画像]
-(https://github.com/Koukuri/work_image_processing/blob/master/image/kadai2.4.png)
+![原画像](https://github.com/Koukuri/work_image_processing/blob/master/image/kadai2.4.png)
 図４ 8諧調画像
