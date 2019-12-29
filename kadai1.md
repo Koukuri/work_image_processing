@@ -47,4 +47,4 @@ IMG2 = imresize(IMG,2,'box'); % 画像の拡大
 ![原画像](https://github.com/Koukuri/work_image_processing/blob/master/image/kadai1.5.png)  
 図6 1/32サンプリング
 
-このようにサンプリング幅が大きくなると，モザイク状のサンプリング歪みが発生する．
+結果より、サンプリング幅が大きくなると，モザイク状のサンプリング歪みが発生する．
