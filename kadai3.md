@@ -38,3 +38,5 @@ imagesc(IMG); colormap(gray); colorbar;
 
 ![原画像](https://github.com/Koukuri/work_image_processing/blob/master/image/kadai3.5.png)
 図５ 閾値を192としたときの閾値処理
+
+閾値が小さい値のときの閾値処理をすると画像は白い部分が多くなり、大きい値の時は画像は黒い部分が多くなる。
