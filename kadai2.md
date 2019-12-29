@@ -53,3 +53,5 @@ imagesc(IMG); colormap(gray); colorbar;  axis image;
 
 ![原画像](https://github.com/Koukuri/work_image_processing/blob/master/image/kadai2.4.png)
 図４ 8諧調画像
+
+諧調数を多くするほど、画像はより鮮明になる。
